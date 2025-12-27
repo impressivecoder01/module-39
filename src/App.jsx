@@ -2,10 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { add, diff, divide as div, multi } from './calculation/math/math'
+import { calculateTax } from './calculation/tax/tax'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const sum = add(3,3)
+  console.log(sum)
+  const sub = diff(4,4)
+  console.log(sub)
+  const multiply = multi(4,4)
+  console.log(multiply)
+  const divide = div(4,4)
+  console.log(divide)
+  const a = calculateTax
+  console.log(a)
   return (
     <>
       <div>
