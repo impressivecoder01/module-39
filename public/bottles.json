@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "brand": "HydroFlow",
+    "model": "AquaPro 750",
+    "capacityML": 750,
+    "material": "Stainless Steel",
+    "color": "Blue",
+    "price": 24.99,
+    "inStock": true,
+    "image": "https://example.com/images/hydroflow-aquapro-750.png"
+  },
+  {
+    "id": 2,
+    "brand": "PureSip",
+    "model": "EcoLite 500",
+    "capacityML": 500,
+    "material": "Plastic (BPA-Free)",
+    "color": "Green",
+    "price": 12.5,
+    "inStock": true,
+    "image": "https://example.com/images/puresip-ecolite-500.png"
+  },
+  {
+    "id": 3,
+    "brand": "CoolWave",
+    "model": "ChillMax 1L",
+    "capacityML": 1000,
+    "material": "Stainless Steel",
+    "color": "Black",
+    "price": 29.99,
+    "inStock": false,
+    "image": "https://example.com/images/coolwave-chillmax-1l.png"
+  },
+  {
+    "id": 4,
+    "brand": "AquaZen",
+    "model": "GlassPure 600",
+    "capacityML": 600,
+    "material": "Glass",
+    "color": "Transparent",
+    "price": 18.75,
+    "inStock": true,
+    "image": "https://example.com/images/aquazen-glasspure-600.png"
+  },
+  {
+    "id": 5,
+    "brand": "TrailSip",
+    "model": "OutdoorX 900",
+    "capacityML": 900,
+    "material": "Aluminum",
+    "color": "Orange",
+    "price": 21.0,
+    "inStock": false,
+    "image": "https://example.com/images/trailsip-outdoorx-900.png"
+  },
+  {
+    "id": 6,
+    "brand": "UrbanHydrate",
+    "model": "SlimFit 650",
+    "capacityML": 650,
+    "material": "Plastic (BPA-Free)",
+    "color": "White",
+    "price": 14.99,
+    "inStock": true,
+    "image": "https://example.com/images/urbanhydrate-slimfit-650.png"
+  },
+  {
+    "id": 7,
+    "brand": "FreshDrop",
+    "model": "KidsFun 400",
+    "capacityML": 400,
+    "material": "Plastic (BPA-Free)",
+    "color": "Pink",
+    "price": 9.99,
+    "inStock": true,
+    "image": "https://example.com/images/freshdrop-kidsfun-400.png"
+  },
+  {
+    "id": 8,
+    "brand": "ThermoSip",
+    "model": "HotCold Duo 800",
+    "capacityML": 800,
+    "material": "Stainless Steel",
+    "color": "Silver",
+    "price": 34.5,
+    "inStock": true,
+    "image": "https://example.com/images/thermosip-hotcold-duo-800.png"
+  },
+  {
+    "id": 9,
+    "brand": "NatureFlow",
+    "model": "BambooEco 700",
+    "capacityML": 700,
+    "material": "Bamboo Fiber",
+    "color": "Brown",
+    "price": 27.25,
+    "inStock": false,
+    "image": "https://example.com/images/natureflow-bambooeco-700.png"
+  },
+  {
+    "id": 10,
+    "brand": "SportHydro",
+    "model": "GripX 1.2L",
+    "capacityML": 1200,
+    "material": "Plastic (BPA-Free)",
+    "color": "Red",
+    "price": 19.99,
+    "inStock": true,
+    "image": "https://example.com/images/sporthydro-gripx-1-2l.png"
+  }
+]
