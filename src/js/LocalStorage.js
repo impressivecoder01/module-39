@@ -16,4 +16,4 @@ const saveCartToLocalStorage = cart => {
     localStorage.setItem('cart',cartStringified)
 }
 
-export{getCartFromLocalStorage, addItemToCartLocalStorage}
+export{getCartFromLocalStorage as getStoreCart, addItemToCartLocalStorage as addToStoreCart}
