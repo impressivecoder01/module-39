@@ -4,15 +4,19 @@ import './Bottles.css'
 const Bottles = ({bottlesPromise}) => {
     const [cart,setCart] = useState([])
     const bottles = use(bottlesPromise)
-    const handleAddToCart = (id) => {
-        console.log(id)
-        const newCart = [...cart,id]
+    console.log(cart)
+    const handleAddToCart = (bottle) => {
+        // console.log(id)
+        const newCart = [...cart,bottle]
         setCart(newCart)
     }
     return (
         <div>
             <h1>Bottle Name: {bottles.length}</h1>
-            <p>a: {cart}</p>
+            <p>a: {cart.length}</p>
+            {
+                cart.map(p=> <p>{p.name}</p>)
+            }
             <div className='bottle-container'>
                 {
                 bottles.map(bottle=> <Bottle 
