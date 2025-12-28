@@ -15,7 +15,7 @@ const Bottles = ({bottlesPromise}) => {
             <h1>Bottle Name: {bottles.length}</h1>
             <p>a: {cart.length}</p>
             {
-                cart.map(p=> <p>{p.name}</p>)
+                cart.map(p=> <p key={p.id} >{p.name}</p>)
             }
             <div className='bottle-container'>
                 {
